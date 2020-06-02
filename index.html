@@ -1,176 +1,209 @@
 <!DOCTYPE html>
-<!-- ��!DOCTYPE�פȤ�ʸ��β��˻Ȥ�DTD����������Τǡ����Τ˸�����HTML�Υ����ǤϤ���ޤ���HTMLʸ����������Ȥ���HTML����������Ƭ�ˤޤ��񤯤٤��ʤΤ� DOCTYPE ����Ǥ��� -->
+<!-- 「!DOCTYPE」とは文書の解釈に使うDTDを宣言するもので、正確に言えばHTMLのタグではありません。HTML文書を作成するとき、HTMLタグよりも先頭にまず書くべきなのが DOCTYPE 宣言です。 -->
 
-<!-- ��DTD�פȤϡ�Document Type Definition�פΤ��Ȥǡ���ʸ�񷿤�����פ��̣���ޤ���HTML�ΥС�����󤴤Ȥˡ����ΥС������ǻ��ѤǤ������ǡʥ����ˤ�°����̾���ʤɤξ����������Ƥ��ޤ��� -->
-<!-- ���Ȥ��С���<!DOCTYPE HTML�פȵ�����Ƥ�����ϡ����줫��DTD��������뤳�Ȥ򼨤�������ʸ�񥿥��פ���HTML�פǤ���Ȥ�����̣�Ǥ��� -->
+<!-- 「DTD」とは「Document Type Definition」のことで、「文書型の定義」を意味します。HTMLのバージョンごとに、そのバージョンで使用できる要素（タグ）や属性の名前などの情報が定義されています。 -->
+<!-- たとえば、「<!DOCTYPE HTML」と記されている場合は、これからDTDを宣言することを示し、その文書タイプが「HTML」であるという意味です。 -->
 
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <!-- https://fontawesome.com/kits/da879277db/settings --> 
-  <!-- �����˥������������font-awesome��copy-kit page�ˤ����� -->
-  <script src="https://kit.fontawesome.com/da879277db.js" crossorigin="anonymous"></script>
-  <!-- �������륷���Ȥϲ��ˤ����йԤ��ۤ�ͥ���٤��⤯�ʤ� -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>CARAVAN</title>
+  <title>Job1</title>
 </head>
 <body>
-  <!-- header -->
-  <header>
-    <h1 class="headline">
-      <a href="index.html">CARAVAN</a>
-    </h1>
-    <div class="social">
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-twitter-square"></i>
-      <i class="fab fa-instagram"></i>
+  <main>
+    <div class="badge">
+      <p class="badge-title">step1</p>
+      <div class="image1 image"></div>
+      <h1 class="title">タイトルが入ります</h1>
+      <p class="text">文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</p>
     </div>
-  </header>
-  <nav>
-    <ul class="nav-list">
-      <li class="nav-list-item">
-        <a href="index.html">Home</a>
-      </li>
-      <li class="nav-list-item">About</li>
-      <li class="nav-list-item">Topic</li>
-    </ul>
-  </nav>
-  <!-- mainvisual -->
-  <div class="main-visual">
-    <div class="main-visual-content">
-      <p class="main-visual-text">
-        The world is a book<br>
-        and those who do not travel<br>
-        read only one page.
-      </p>
-      <p class="main-visual-name">
-        St. Augustine
-      </p>
+    <div class="badge">
+      <p class="badge-title">step2</p>
+      <div class="image2 image"></div>
+      <h1 class="title">タイトルが入ります</h1>
+      <p class="text">文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</p>
     </div>
-  </div>
-  <!-- main -->
- <!-- clearfix�����Ƥ��,���β��ʹ�float���������� flexbox�Ȥ������㤦����˺��ʤ��褦�� -->
-  <main class="clearfix">
-    <section class="blog">
-      <h2 class="blog-headline">Recent Blogs</h2>
-      <div class="blog-box">
-        <div class="blog-item clearfix">
-          <img class="blog-image" src="img/forest.jpg">
-          <section class="blog-text">
-            <h3 class="blog-text-headline">
-              <a href="single.html">
-                Hopeful lessons from<br>
-                the battle to save<br>
-                rainforests
-              </a>
-            </h3>
-            <p class="blog-date">June 19, 2017</p>
-            <span class="category">Nature</span>
-          </section>
-        </div>
-        <div class="blog-item clearfix">
-          <img class="blog-image" src="img/desert.jpg">
-          <section class="blog-text">
-            <h3 class="blog-text-headline">
-              <a href="single.html">
-                How to fight<br>
-                desertification and<br>
-                reverse climate change
-              </a>
-            </h3>
-            <p class="blog-date">June 17, 2017</p>
-            <span class="category">Nature</span>
-          </section>
-        </div>
-        <div class="blog-item clearfix">
-          <img class="blog-image" src="img/sunset.jpg">
-          <section class="blog-text">
-            <h3 class="blog-text-headline">
-              <a href="single.html">
-                Why I'm rowing<br>
-                across the Pacific
-              </a>
-            </h3>
-            <p class="blog-date">June 16, 2017</p>
-            <span class="category">Adventure</span>
-          </section>
-        </div>
-        <div class="blog-item clearfix">
-          <img class="blog-image" src="img/italy.jpg">
-          <section class="blog-text">
-            <h3 class="blog-text-headline">
-              <a href="single.html">
-                Unseen footage,<br>
-                untamed nature
-              </a>
-            </h3>
-            <p class="blog-date">June 15, 2017</p>
-            <span class="category">Nature</span>
-          </section>
-        </div>
-        <div class="blog-item clearfix">
-          <img class="blog-image" src="img/asia.jpg">
-          <section class="blog-text">
-            <h3 class="blog-text-headline">
-              <a href="single.html">
-                The case for<br>
-                engineering our food
-              </a>
-            </h3>
-            <p class="blog-date">June 14, 2017</p>
-            <span class="category">Culture</span>
-          </section>
-        </div>
-      </div>
-      <div class="pagination">
-        <p><<</p>
-        <p><</p>
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-        <p>></p>
-        <p>>></p>
-      </div>
-    </section>
-    <div class="sidebar">
-      <section class="popular">
-        <h2 class="sidebar-headline">Popular</h2>
-        <div class="sidebar-contents">
-          <p class="popular-text">To solve old problems,<br>study new species</p>
-          <p class="popular-text">Why Earth may someday<br>look like Mars</p>
-          <p class="popular-text">What will humans look<br>like in 100 years?</p>
-          <p class="popular-text">How to grow a forest<br>in your backyard</p>
-          <p class="popular-text">How humans could evolve<br>to survive in space</p>
-        </div>
-      </section>
-      <section class="instagram">
-        <h2 class="instagram-headline">Instagram</h2>
-        <div class="sidebar-contents clearfix">
-          <div class="instagram-box"></div>
-          <div class="instagram-box"></div>
-          <div class="instagram-box"></div>
-          <div class="instagram-box"></div>
-          <div class="instagram-box"></div>
-          <div class="instagram-box"></div>
-        </div>
-      </section>
-      <section class="categories">
-        <h2 class="categories-headline">Categories</h2>
-        <div class="sidebar-contents">
-          <p class="categories-text">Technology(15)</p>
-          <p class="categories-text">Business(23)</p>
-          <p class="categories-text">Entertainment(12)</p>
-          <p class="categories-text">Nature(32)</p>
-          <p class="categories-text">Education(9)</p>
-          <p class="categories-text">Adventure(23)</p>
-          <p class="categories-text">Communication(14)</p>
-        </div>
-      </section>
+    <div class="badge">
+      <p class="badge-title">step3</p>
+      <div class="image3 image"></div>
+      <h1 class="title">タイトルが入ります</h1>
+      <p class="text">文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</p>
     </div>
   </main>
-  <!-- footer -->
-  <footer>
-    <p class="footer-text">All rights recerved by Infratop.Inc.</p>
-  </footer>
 </body>
+
 </html>
+
+<!-- <html> -->
+<!-- <head> -->
+<!--   <meta charset="UTF-8"> -->
+<!--   <!-1- https://fontawesome.com/kits/da879277db/settings -1-> --> 
+<!--   <!-1- ここにアクセスするとfont-awesomeのcopy-kit pageにいける -1-> -->
+<!--   <script src="https://kit.fontawesome.com/da879277db.js" crossorigin="anonymous"></script> -->
+<!--   <!-1- スタイルシートは下にいけば行くほど優先度が高くなる -1-> -->
+<!--   <link rel="stylesheet" href="style.css"> -->
+<!--   <title>CARAVAN</title> -->
+<!-- </head> -->
+<!-- <body> -->
+<!--   <!-1- header -1-> -->
+<!--   <header> -->
+<!--     <h1 class="headline"> -->
+<!--       <a href="index.html">CARAVAN</a> -->
+<!--     </h1> -->
+<!--     <div class="social"> -->
+<!--       <i class="fab fa-facebook-square"></i> -->
+<!--       <i class="fab fa-twitter-square"></i> -->
+<!--       <i class="fab fa-instagram"></i> -->
+<!--     </div> -->
+<!--   </header> -->
+<!--   <nav> -->
+<!--     <ul class="nav-list"> -->
+<!--       <li class="nav-list-item"> -->
+<!--         <a href="index.html">Home</a> -->
+<!--       </li> -->
+<!--       <li class="nav-list-item">About</li> -->
+<!--       <li class="nav-list-item">Topic</li> -->
+<!--     </ul> -->
+<!--   </nav> -->
+<!--   <!-1- mainvisual -1-> -->
+<!--   <div class="main-visual"> -->
+<!--     <div class="main-visual-content"> -->
+<!--       <p class="main-visual-text"> -->
+<!--         The world is a book<br> -->
+<!--         and those who do not travel<br> -->
+<!--         read only one page. -->
+<!--       </p> -->
+<!--       <p class="main-visual-name"> -->
+<!--         St. Augustine -->
+<!--       </p> -->
+<!--     </div> -->
+<!--   </div> -->
+<!--   <!-1- main -1-> -->
+<!--  <!-1- clearfixを当てると,その下以降floatが解除される flexboxとは全然違うから忘れないように -1-> -->
+<!--   <main class="clearfix"> -->
+<!--     <section class="blog"> -->
+<!--       <h2 class="blog-headline">Recent Blogs</h2> -->
+<!--       <div class="blog-box"> -->
+<!--         <div class="blog-item clearfix"> -->
+<!--           <img class="blog-image" src="img/forest.jpg"> -->
+<!--           <section class="blog-text"> -->
+<!--             <h3 class="blog-text-headline"> -->
+<!--               <a href="single.html"> -->
+<!--                 Hopeful lessons from<br> -->
+<!--                 the battle to save<br> -->
+<!--                 rainforests -->
+<!--               </a> -->
+<!--             </h3> -->
+<!--             <p class="blog-date">June 19, 2017</p> -->
+<!--             <span class="category">Nature</span> -->
+<!--           </section> -->
+<!--         </div> -->
+<!--         <div class="blog-item clearfix"> -->
+<!--           <img class="blog-image" src="img/desert.jpg"> -->
+<!--           <section class="blog-text"> -->
+<!--             <h3 class="blog-text-headline"> -->
+<!--               <a href="single.html"> -->
+<!--                 How to fight<br> -->
+<!--                 desertification and<br> -->
+<!--                 reverse climate change -->
+<!--               </a> -->
+<!--             </h3> -->
+<!--             <p class="blog-date">June 17, 2017</p> -->
+<!--             <span class="category">Nature</span> -->
+<!--           </section> -->
+<!--         </div> -->
+<!--         <div class="blog-item clearfix"> -->
+<!--           <img class="blog-image" src="img/sunset.jpg"> -->
+<!--           <section class="blog-text"> -->
+<!--             <h3 class="blog-text-headline"> -->
+<!--               <a href="single.html"> -->
+<!--                 Why I'm rowing<br> -->
+<!--                 across the Pacific -->
+<!--               </a> -->
+<!--             </h3> -->
+<!--             <p class="blog-date">June 16, 2017</p> -->
+<!--             <span class="category">Adventure</span> -->
+<!--           </section> -->
+<!--         </div> -->
+<!--         <div class="blog-item clearfix"> -->
+<!--           <img class="blog-image" src="img/italy.jpg"> -->
+<!--           <section class="blog-text"> -->
+<!--             <h3 class="blog-text-headline"> -->
+<!--               <a href="single.html"> -->
+<!--                 Unseen footage,<br> -->
+<!--                 untamed nature -->
+<!--               </a> -->
+<!--             </h3> -->
+<!--             <p class="blog-date">June 15, 2017</p> -->
+<!--             <span class="category">Nature</span> -->
+<!--           </section> -->
+<!--         </div> -->
+<!--         <div class="blog-item clearfix"> -->
+<!--           <img class="blog-image" src="img/asia.jpg"> -->
+<!--           <section class="blog-text"> -->
+<!--             <h3 class="blog-text-headline"> -->
+<!--               <a href="single.html"> -->
+<!--                 The case for<br> -->
+<!--                 engineering our food -->
+<!--               </a> -->
+<!--             </h3> -->
+<!--             <p class="blog-date">June 14, 2017</p> -->
+<!--             <span class="category">Culture</span> -->
+<!--           </section> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--       <div class="pagination"> -->
+<!--         <p><<</p> -->
+<!--         <p><</p> -->
+<!--         <p>1</p> -->
+<!--         <p>2</p> -->
+<!--         <p>3</p> -->
+<!--         <p>></p> -->
+<!--         <p>>></p> -->
+<!--       </div> -->
+<!--     </section> -->
+<!--     <div class="sidebar"> -->
+<!--       <section class="popular"> -->
+<!--         <h2 class="sidebar-headline">Popular</h2> -->
+<!--         <div class="sidebar-contents"> -->
+<!--           <p class="popular-text">To solve old problems,<br>study new species</p> -->
+<!--           <p class="popular-text">Why Earth may someday<br>look like Mars</p> -->
+<!--           <p class="popular-text">What will humans look<br>like in 100 years?</p> -->
+<!--           <p class="popular-text">How to grow a forest<br>in your backyard</p> -->
+<!--           <p class="popular-text">How humans could evolve<br>to survive in space</p> -->
+<!--         </div> -->
+<!--       </section> -->
+<!--       <section class="instagram"> -->
+<!--         <h2 class="instagram-headline">Instagram</h2> -->
+<!--         <div class="sidebar-contents clearfix"> -->
+<!--           <div class="instagram-box"></div> -->
+<!--           <div class="instagram-box"></div> -->
+<!--           <div class="instagram-box"></div> -->
+<!--           <div class="instagram-box"></div> -->
+<!--           <div class="instagram-box"></div> -->
+<!--           <div class="instagram-box"></div> -->
+<!--         </div> -->
+<!--       </section> -->
+<!--       <section class="categories"> -->
+<!--         <h2 class="categories-headline">Categories</h2> -->
+<!--         <div class="sidebar-contents"> -->
+<!--           <p class="categories-text">Technology(15)</p> -->
+<!--           <p class="categories-text">Business(23)</p> -->
+<!--           <p class="categories-text">Entertainment(12)</p> -->
+<!--           <p class="categories-text">Nature(32)</p> -->
+<!--           <p class="categories-text">Education(9)</p> -->
+<!--           <p class="categories-text">Adventure(23)</p> -->
+<!--           <p class="categories-text">Communication(14)</p> -->
+<!--         </div> -->
+<!--       </section> -->
+<!--     </div> -->
+<!--   </main> -->
+<!--   <!-1- footer -1-> -->
+<!--   <footer> -->
+<!--     <p class="footer-text">All rights recerved by Infratop.Inc.</p> -->
+<!--   </footer> -->
+<!-- </body> -->
+<!-- </html> -->
